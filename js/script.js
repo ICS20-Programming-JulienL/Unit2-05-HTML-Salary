@@ -10,10 +10,10 @@ function enterClicked() {
   // taxrate
   const TAXRATE = 0.2005
   // get the hours worked from the user
-  let hoursWorked= parseFloat(document.getElementById("hoursWorked").value)
+  let hoursWorked= parseFloat(document.getElementById("hours-Worked").value)
 
 	// get the hourly pay from the user
-  let hourlyPay= parseFloat(document.getElementById("hourlyPay").value)
+  let hourlyPay= parseFloat(document.getElementById("hourly-Pay").value)
 
   //caculate the pay  
   let totalPay= hoursWorked*hourlyPay
